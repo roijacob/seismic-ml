@@ -1,0 +1,47 @@
+data/ehz-2024-04-01.mseed
+data/ehz-2024-04-02.mseed
+data/ehz-2024-04-03.mseed
+data/ehz-2024-04-04.mseed
+data/ehz-2024-04-05.mseed
+data/ehz-2024-04-06.mseed
+# data/ehz-2024-04-07.mseed
+# data/ehz-2024-04-08.mseed
+data/ehz-2024-04-09.mseed
+data/ehz-2024-04-10.mseed
+data/ehz-2024-04-11.mseed
+# data/ehz-2024-04-12.mseed
+data/ehz-2024-04-13.mseed
+data/ehz-2024-04-14.mseed
+data/ehz-2024-04-15.mseed
+data/ehz-2024-04-16.mseed
+data/ehz-2024-04-17.mseed
+data/ehz-2024-04-18.mseed
+data/ehz-2024-04-19.mseed
+data/ehz-2024-04-20.mseed
+data/ehz-2024-04-21.mseed
+data/ehz-2024-04-22.mseed
+data/ehz-2024-04-23.mseed
+data/ehz-2024-04-24.mseed
+data/ehz-2024-04-25.mseed
+data/ehz-2024-04-26.mseed
+data/ehz-2024-04-27.mseed
+data/ehz-2024-04-28.mseed
+data/ehz-2024-04-29.mseed
+data/ehz-2024-04-30.mseed
+data/ehz-2024-05-01.mseed
+# data/ehz-2024-05-02.mseed
+# data/ehz-2024-05-03.mseed
+data/ehz-2024-05-04.mseed
+data/ehz-2024-05-05.mseed
+data/ehz-2024-05-06.mseed
+data/ehz-2024-05-07.mseed
+data/ehz-2024-05-08.mseed
+data/ehz-2024-05-09.mseed
+data/ehz-2024-05-10.mseed
+data/ehz-2024-05-11.mseed
+data/ehz-2024-05-12.mseed
+data/ehz-2024-05-13.mseed
+data/ehz-2024-05-14.mseed
+data/ehz-2024-05-15.mseed
+# data/ehz-2024-05-16.mseed
+# data/ehz-2024-05-17.mseed

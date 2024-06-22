@@ -1,0 +1,5 @@
+data/ehz-2024-05-18.mseed
+data/ehz-2024-05-19.mseed
+data/ehz-2024-05-20.mseed
+data/ehz-2024-05-21.mseed
+data/ehz-2024-05-22.mseed
