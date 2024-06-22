@@ -38,7 +38,7 @@ def process_seismic_data(data_folder):
 
 
 def rename_and_save_files(data_folder, fixed_data_folder, df):
-    # Rename the files based on the start date and save them in the fixed-data folder
+    # Rename the files based on the start date and save them in the fixed_data folder
     for index, row in df.iterrows():
         old_file_path = os.path.join(data_folder, row["File Name"])
         new_file_name = f"{row['Start Date']}.mseed"
