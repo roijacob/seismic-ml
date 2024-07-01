@@ -1,0 +1,728 @@
+{
+    "description": "[HyperIJKL] Applications",
+    "manipulators": [
+        {
+            "conditions": [
+                {
+                    "name": "HYPER",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "description": "My Custom Configuration: 1 -> SigmaOS",
+            "from": {
+                "key_code": "1",
+                "modifiers": {
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "open -a 'sigmaos'"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "name": "HYPER",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "description": "2 -> Obsidian",
+            "from": {
+                "key_code": "2",
+                "modifiers": {
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "open -a 'obsidian'"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "name": "HYPER",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "description": "3 -> Spotify",
+            "from": {
+                "key_code": "3",
+                "modifiers": {
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "open -a spotify"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "name": "HYPER",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "description": "4 -> Calendar",
+            "from": {
+                "key_code": "4",
+                "modifiers": {
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "open -a calendar"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "name": "HYPER",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "description": "5 -> Anki",
+            "from": {
+                "key_code": "5",
+                "modifiers": {
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "open -a anki"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "name": "HYPER",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "description": "command + 1 -> Visual Studio Code",
+            "from": {
+                "key_code": "1",
+                "modifiers": {
+                    "mandatory": [
+                        "command"
+                    ],
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "open -a 'visual studio code'"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "name": "HYPER",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "description": "command + 2 -> Warp",
+            "from": {
+                "key_code": "2",
+                "modifiers": {
+                    "mandatory": [
+                        "command"
+                    ],
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "open -a 'warp'"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "name": "HYPER",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "description": "command + 3 -> Docker Desktop",
+            "from": {
+                "key_code": "3",
+                "modifiers": {
+                    "mandatory": [
+                        "command"
+                    ],
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "open -a 'docker'"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "name": "HYPER",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "description": "command + 4 -> GitHub Desktop",
+            "from": {
+                "key_code": "4",
+                "modifiers": {
+                    "mandatory": [
+                        "command"
+                    ],
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "open -a 'github desktop'"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "name": "HYPER",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "description": "command + 5 -> Sublime Text",
+            "from": {
+                "key_code": "5",
+                "modifiers": {
+                    "mandatory": [
+                        "command"
+                    ],
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "open -a 'sublime text'"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "name": "HYPER",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "description": "command + d -> Docker",
+            "from": {
+                "key_code": "d",
+                "modifiers": {
+                    "mandatory": [
+                        "command"
+                    ],
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "open -a 'Docker Desktop'"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "name": "HYPER",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "description": "option + d -> Lens",
+            "from": {
+                "key_code": "d",
+                "modifiers": {
+                    "mandatory": [
+                        "option"
+                    ],
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "open -a lens"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "name": "HYPER",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "description": "f -> Finder",
+            "from": {
+                "key_code": "f",
+                "modifiers": {
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "open -a finder"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "name": "HYPER",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "description": "command + f -> Forklift",
+            "from": {
+                "key_code": "f",
+                "modifiers": {
+                    "mandatory": [
+                        "command"
+                    ],
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "open -a forklift"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "name": "HYPER",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "description": "option + f -> Preview",
+            "from": {
+                "key_code": "f",
+                "modifiers": {
+                    "mandatory": [
+                        "option"
+                    ],
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "open -a preview"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "name": "HYPER",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "description": "g -> KeePassXC",
+            "from": {
+                "key_code": "g",
+                "modifiers": {
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "open -a keepassxc"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "name": "HYPER",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "description": "command + g -> Spotify",
+            "from": {
+                "key_code": "g",
+                "modifiers": {
+                    "mandatory": [
+                        "command"
+                    ],
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "open -a spotify"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "name": "HYPER",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "description": "option + g -> IINA",
+            "from": {
+                "key_code": "g",
+                "modifiers": {
+                    "mandatory": [
+                        "option"
+                    ],
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "open -a iina"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "name": "HYPER",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "description": "c -> Telegram",
+            "from": {
+                "key_code": "c",
+                "modifiers": {
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "open -a telegram"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "name": "HYPER",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "description": "command + c -> Rocket.Chat",
+            "from": {
+                "key_code": "c",
+                "modifiers": {
+                    "mandatory": [
+                        "command"
+                    ],
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "open -a 'Rocket.Chat.app'"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "name": "HYPER",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "description": "option + c -> Signal",
+            "from": {
+                "key_code": "c",
+                "modifiers": {
+                    "mandatory": [
+                        "option"
+                    ],
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "open -a signal"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "name": "HYPER",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "description": "v -> Zoom",
+            "from": {
+                "key_code": "v",
+                "modifiers": {
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "open -a zoom.us"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "name": "HYPER",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "description": "command + v -> Microsoft Teams",
+            "from": {
+                "key_code": "v",
+                "modifiers": {
+                    "mandatory": [
+                        "command"
+                    ],
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "open -a 'Microsoft Teams'"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "name": "HYPER",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "description": "option + v -> Skype",
+            "from": {
+                "key_code": "v",
+                "modifiers": {
+                    "mandatory": [
+                        "option"
+                    ],
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "open -a skype"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "name": "HYPER",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "description": "b -> Chrome",
+            "from": {
+                "key_code": "b",
+                "modifiers": {
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "open -a 'Google Chrome'"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "name": "HYPER",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "description": "command + b -> Firefox",
+            "from": {
+                "key_code": "b",
+                "modifiers": {
+                    "mandatory": [
+                        "command"
+                    ],
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "open -a firefox"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "name": "HYPER",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "description": "option + b -> Safari",
+            "from": {
+                "key_code": "b",
+                "modifiers": {
+                    "mandatory": [
+                        "option"
+                    ],
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "open -a safari"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "name": "HYPER",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "description": "§ -> Start Work Environment",
+            "from": {
+                "key_code": "non_us_backslash",
+                "modifiers": {
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "open -a 'Microsoft Outlook'; open -a 'Intellij IDEA'; open -a 'Google Chrome'; open -a telegram; open -a notes; open -a postman; open -a 'Docker Desktop'; open -a zoom.us; open -a keepassxc"
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}

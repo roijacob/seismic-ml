@@ -2,6 +2,18 @@
 Machine Learning using Raspberry Shake.
 
 
+
+
+CORRELATING RASPBERRY SHAKE 4D SENSORS WITH FINITE
+ELEMENT MODELING FOR STRUCTURAL HEALTH
+MONITORING AND UTILIZING MACHINE
+LEARNING CLASSIFICATION FOR
+HUMAN ACTIVITY DETECTION
+
+
+
+For complete data, you may approach me at 
+
 ## Data Renaming Script (Optional)
 
 This script renames data files downloaded from Raspberry Shake to a more readable format.
